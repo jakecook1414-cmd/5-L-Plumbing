@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `Service: ${serviceVal}\n\nMessage:\n${msgVal || 'No additional details.'}`
       );
 
-      window.location.href = `mailto:5lplumbingllc@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:5lplumbingcompany@gmail.com?subject=${subject}&body=${body}`;
 
       // Show success state
       form.style.display = 'none';
